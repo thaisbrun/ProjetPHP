@@ -1,6 +1,5 @@
 
 <!DOCTYPE html>
-<html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +10,7 @@
   <script src="script.js"></script>
 </head>
 <body>
-<!-- entete Shopony -->
+<!-- entete Ponyshop -->
 <nav class="navbar" role="navigation" aria-label="main navigation">
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
