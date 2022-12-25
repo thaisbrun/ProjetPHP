@@ -1,53 +1,31 @@
-
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Vente, location et demi-pension sur chevaux et poneys</title>
 <!-- CSS et JS -->
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bundles/apiplatform/style.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  <script src="script.js"></script>
 </head>
 <body>
 <!-- entete Ponyshop -->
-<nav class="navbar" role="navigation" aria-label="main navigation">
-
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-        <div class="navbar-brand">
+<nav class="navbar is-warning">
     <a class="navbar-item" href="index.php">
-      <img src="img/logo.png" id="logo">
+        <!-- Ici rajouter le logo -->
+    <h1>Ponyshop</h1>
     </a>
-      <a class="navbar-item">
-       <h1>Shopony</h1>
-      </a>
-      </div>
-    </div>
 </nav>
 <!-- bordereau d'accueil vente / achat -->
-<div class="columns">
+<div class="columns" id="bordereau">
   <div class="column is-half">
-    <img src="img/background3.jpg" id="frontW">
-    <div class="center"><h2>Je vends mon poney</h2>
-    </div>
-    <div class="centerB">
-    <button class="button is-medium" id="buttonSale">Vendre</button></div>
-</div>
-  <div class="column is-half">
-  <img src="img/background2.jpg" id="frontW">
-  <div class="centerA"><h2>J'achète un poney</h2>
+    <img src="img/background3.jpg">
   </div>
-  <div class="centerBA">
-  <button class="button is-medium" id="buttonBuy">Acheter</button>
-</div>
+  <div class="column is-half">
+  <img src="img/background2.jpg" id="front" style="position=relative">
+      <div class="left">Je vends mon poney
+          <br>
+      <input type="submit" class="button is-warning" value="Vendre"/></div>
+
   </div>
 </div>
 <!-- Annonces 4 par 4 : 12 de vente -->
@@ -65,7 +43,7 @@
     </div>
     <br>
     <div class="content">
-    <button class="button is-link is-outlined is-fullwidth">En savoir plus</button>
+    <button class="button is-warning is-outlined is-fullwidth">En savoir plus</button>
       <br>
       <time datetime="2016-1-1">Posté à 22H04 - 3 Septembre 2022</time>
     </div>
